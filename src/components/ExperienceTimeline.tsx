@@ -8,12 +8,12 @@ const experiences = [
     role: "Research Assistant",
     company: "York University",
     duration: "Jan 2025 - Present",
-    description: "• Building a clinic-patient platform with Spring Boot & React, enabling 100+ clinics to manage services & specialists.\n • Integrating an AI chatbot in Botpress to analyze symptoms, anonymize data, & cut manual inquiries by 60%.\n • Improving healthcare access for 10,000+ users while boosting clinic visibility & efficiency by 50%"  },
+    description: "• Engineering clinic-patient platform using Spring Boot & React, enabling clinics to manage real-time specialist & service discovery.\n • Building an AI-powered chatbot using OpenAI’s function calling API to interpret symptom prompts and dynamically route them to backend endpoints for personalized clinic recommendations."},
   {
     role: "Full Stack Developer Intern",
     company: "UIT, York University",
     duration: "July 2024 - Aug 2024",
-    description: "• Contributed to York University’s Generative AI project, recognized with a CIO Awards Canada 2024 honor.\n • Deployed AI-powered chatbots, serving 55,000+ students, optimizing user engagement & response accuracy by 30%, while productionizing state-of-the-art RAG applications handling 100K+ queries monthly with less than 200ms response time.\n • Developed and maintained enterprise applications using PHP, JavaScript, and Ajax.\n • Collaborated with cross-functional teams to deliver a scalable solution, enriching student learning with AI-driven support.",
+    description: "• Contributed to York University’s Generative AI project, recognized with a CIO Awards Canada 2024 honor.\n • Deployed AI-powered chatbots supporting 55,000+ students in navigating academics seamlessly, leveraging RAG architecture to handle queries efficiently.\n • Developed and maintained enterprise applications using PHP, JavaScript, and Ajax.\n • Collaborated with cross-functional teams to deliver a scalable solution, enriching student learning with AI-driven support.",
   },
   {
     role: "Supervisor",
