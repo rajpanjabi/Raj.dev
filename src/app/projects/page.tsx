@@ -13,6 +13,16 @@ export default function ProjectsPage(){
           github: "https://www.github.com/Nishiket-singh/Ecom4413",
           live:"https://bidwise.panjabiraj.com/"
         },
+     
+        {
+          photo: "mcp.png",
+          name: "GitHub MCP Tool Server",
+          content:
+            "Built a lightweight MCP-compatible server in Python enabling AI tools like Claude and Cursor to fetch GitHub repo summaries and recent commit data via standardized tool calls.",
+          type: "software",
+          github: "https://github.com/rajpanjabi/MCP"
+        },
+
         {
           photo: "chat.jpg",
           name: "Large Language Model from Scratch",

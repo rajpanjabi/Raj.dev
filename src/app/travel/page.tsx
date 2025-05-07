@@ -6,7 +6,7 @@ export default function TravelPage() {
     "/travel/2.jpg",
     "/travel/3.jpg",
     "/travel/4.jpg",
-    "/travel/5.jpg",   
+    "/travel/5.JPG",   
     "/travel/6.jpg",
     "/travel/7.jpg",
     "/travel/8.jpg",
@@ -15,9 +15,15 @@ export default function TravelPage() {
     "/travel/11.jpg",
     "/travel/12.jpg",
     "/travel/13.jpg",
-    "/travel/14.jpg",
+    "/travel/14.JPG",
     "/travel/15.jpg",
-    "/travel/16.jpg",
+    "/travel/16.JPG",
+    "/travel/17.JPG",
+    "/travel/18.JPG",
+    "/travel/20.JPG",
+    "/travel/22.JPG",
+
+   
 
 
   ];
