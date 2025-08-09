@@ -4,6 +4,12 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { useRef } from 'react';
 
 const experiences = [
+
+  {
+    role: "Web Developer Coordinator",
+    company: "Wearsos",
+    duration: "June 2025 - Present",
+    description: "• Built and launched 5+ Shopify landing pages increasing user engagement by 22%•\n Optimized navigation across 20+ pages, improving UX for 1,000+ monthly visitors \n• Collaborated with Communications team to ensure consistent digital messaging"},
   {
     role: "Research Assistant",
     company: "York University",
