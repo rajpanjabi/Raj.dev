@@ -4,31 +4,39 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import { useRef } from 'react';
 
 const experiences = [
-
   {
-    role: "Web Developer Coordinator",
-    company: "Wearsos",
-    duration: "June 2025 - Present",
-    description: "• Built and launched 5+ Shopify landing pages increasing user engagement by 22%•\n Optimized navigation across 20+ pages, improving UX for 1,000+ monthly visitors \n• Collaborated with Communications team to ensure consistent digital messaging"},
+    role: "Software Development Engineer Intern",
+    company: "Tata Consultancy Services (TCS)",
+    duration: "Dec 2025 – Present",
+    description: "• Engineered an end-to-end agentic SDLC system using LangGraph and Amazon Bedrock (Claude Sonnet), automating requirements through testing with 85% code generation accuracy.\n• Implemented multi-agent orchestration with watchdog-based monitoring, enabling real-time generation and validation of user stories, API contracts, system architecture, ER diagrams, and production-ready code.",
+  },
   {
     role: "Research Assistant",
     company: "York University",
-    duration: "Jan 2025 - Present",
-    description: "• Engineering clinic-patient platform using Spring Boot & React, enabling clinics to manage real-time specialist & service discovery.\n • Building an AI-powered chatbot using OpenAI’s function calling API to interpret symptom prompts and dynamically route them to backend endpoints for personalized clinic recommendations."},
+    duration: "Feb 2025 – Aug 2025",
+    description: "• Researched OpenAI Assistants API tool-calling and multi-turn prompts, comparing MCP-style orchestration with assistant-driven routing to Spring Boot endpoints for symptom triage and clinic recommendations.\n• Analyzed context retention strategies across multi-turn conversations (threading, tool invocation patterns, state management), improving response accuracy and reliability of patient-facing chat workflows.",
+  },
   {
     role: "Full Stack Developer Intern",
     company: "UIT, York University",
-    duration: "July 2024 - Aug 2024",
-    description: "• Contributed to York University’s Generative AI project, recognized with a CIO Awards Canada 2024 honor.\n • Deployed AI-powered chatbots supporting 55,000+ students in navigating academics seamlessly, leveraging RAG architecture to handle queries efficiently.\n • Developed and maintained enterprise applications using PHP, JavaScript, and Ajax.\n • Collaborated with cross-functional teams to deliver a scalable solution, enriching student learning with AI-driven support.",
+    duration: "Jul 2024 – Aug 2024",
+    description: "• Developed AI chatbots using RAG architecture and PHP backend APIs to create course-specific bot instances with real-time interactions, improving query response time for 55,000+ students.\n• Created instructor interface using JavaScript, Mustache Template, and Moodle APIs for uploading FAQs.\n• Configured GitHub Actions CI/CD pipeline, part of York University’s CIO Awards Canada 2024 honored Generative AI project.",
   },
   {
     role: "Supervisor",
     company: "Tim Hortons",
-    duration: "March 2022 - Aug 2024",
-    description: "• Guided team members to enhance productivity by 30% and reduced customer complaints by 40%.\n • Streamlined inventory management processes, reducing waste by 5%.\n • Trained new staff members, ensuring smooth workforce integration.\n • Fostered a positive environment through strong interpersonal skills and effective communication."}
+    duration: "Mar 2022 – Aug 2024",
+    description: "• Guided team members to enhance productivity by 30% and reduced customer complaints by 40%.\n• Streamlined inventory management processes, reducing waste by 5%.\n• Trained new staff members, ensuring smooth workforce integration.",
+  },
 ];
 
 const leadershipExperiences = [
+    {
+      title: "Web Developer Coordinator (Volunteer) — Wearsos",
+      award: "Jun 2025 – Aug 2025",
+      description: `• Built and launched 5+ Shopify landing pages increasing user engagement by 22%.\n• Optimized SEO by 20% and streamlined site navigation, enhancing overall UX for 1,000+ monthly visitors.`,
+      image: "/wearsos.png",
+    },
     {
       title: "C4: Cross-Campus Capstone Classroom – 'Nurturing Chefs of YCDSB'",
       award: "1st Prize & Sustainability Award ($1,500)",
